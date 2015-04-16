@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="drunkmedia.DrunkMediaController">
+    <children>
+        <Button fx:id="startCaptureButton" defaultButton="true" layoutX="110.0" layoutY="170.0" minWidth="100.0" onAction="#startCapture" style="-fx-background-color: #003300;" text="Start Capture" textAlignment="CENTER" textFill="WHITE" />
+      <Button fx:id="stopCaptureButton" defaultButton="true" disable="true" layoutX="215.0" layoutY="170.0" minWidth="100.0" onAction="#stopCapture" style="-fx-background-color: #770000;" text="Stop Capture" textAlignment="CENTER" textFill="WHITE" />
+      <Button fx:id="setFilepathButton" defaultButton="true" layoutX="14.0" layoutY="14.0" minWidth="100.0" onAction="#setFilepath" text="Set Filepath" />
+      <Label fx:id="filePath" layoutX="128.0" layoutY="15.0" prefHeight="84.0" prefWidth="185.0" text="Filepath" wrapText="true" />
+      <Button fx:id="closeButton" layoutX="5.0" layoutY="170.0" mnemonicParsing="false" onAction="#close" style="-fx-background-color: #330000;" text="Close" textFill="WHITE" />
+      <Button fx:id="openFilepathButton" layoutX="14.0" layoutY="44.0" minWidth="100.0" onAction="#openFilepath" text="Open Filepath" />
+      <Button fx:id="openFileButton" layoutX="14.0" layoutY="75.0" minWidth="100.0" onAction="#openFile" text="Open File" />
+    </children>
+</AnchorPane>
