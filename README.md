@@ -3,4 +3,4 @@
 
 A simple Java Audio-Recorder.
 
-To run the program, you only need the DrunkenMedia.zip. Extract it and just start the DrunkenMedia.jar!
+To run the program, download the latest release. Extract it and just start the DrunkenMedia.jar!
